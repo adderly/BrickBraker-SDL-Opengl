@@ -54,7 +54,7 @@ int main(int argc, char* argv[])
     SDL_GL_SetAttribute(SDL_GL_ALPHA_SIZE, 8);
     SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 16);
     SDL_GL_SetAttribute(SDL_GL_BUFFER_SIZE, 32);
-    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER,1);
+    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER,2);
 
 
 
@@ -172,6 +172,7 @@ int main(int argc, char* argv[])
         glPushMatrix();
         glColor4ub(255,255,255,255);
         glOrtho(0,680,460,0,-1,1);
+		SDL_Delay(20);
         Draw(pX,pY,pWidth,pHeight,bWidth,bHeight,bX,bY);
         glPopMatrix();
         SDL_GL_SwapBuffers();
