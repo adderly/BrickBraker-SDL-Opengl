@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="Level.h" open="1" top="0" tabpos="2">
+	<File name="Level.h" open="1" top="0" tabpos="3">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="Queue.cpp" open="1" top="1" tabpos="3">
-		<Cursor position="1649" topLine="54" />
-	</File>
-	<File name="Queue.h" open="1" top="0" tabpos="4">
+	<File name="Queue.cpp" open="1" top="0" tabpos="4">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="gameInfo.cpp" open="1" top="0" tabpos="5">
-		<Cursor position="34" topLine="0" />
+	<File name="Queue.h" open="1" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="196" topLine="87" />
+	<File name="gameInfo.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="0" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

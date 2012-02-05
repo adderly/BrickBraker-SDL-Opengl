@@ -153,13 +153,13 @@ int main(int argc, char* argv[])
             }
         }
         //ball Constraints
-        if(bY+bHeight > scrHeight)
+        if(bY > (scrHeight-10))
         {
             bSpeedY = -bSpeedY;
             lost = true;
         }
         else if(bY < 0) bSpeedY = -bSpeedY;
-        else if(bX+bWidth > scrWidth)bSpeedX = -bSpeedX;
+        else if(bX > (scrWidth-10))bSpeedX = -bSpeedX;
         else if(bX < 0) bSpeedX = -bSpeedX;
 
 
